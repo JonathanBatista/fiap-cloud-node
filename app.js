@@ -5,7 +5,7 @@ app.get('/', (req, res) => {
     res.send("<h1>Fiap Cloud Node APP Deploy!</h1>");
 });
 
-const port = process.env.port || 3000;
+const port = process.env.port || 8081;
 app.listen(port, () => {
-    console.log('App is running on port 3000');
+    console.log('App is running on port 8081');
 });
